@@ -1,0 +1,19 @@
+scenario,seed,n_pedestrians,total_steps,evacuated_count,completion_rate,avg_evacuation_time,max_evacuation_time,final_exit_loads,method
+uniform,1,50,500,49,0.98,117.24489795918367,398.0,"[0, 1, 0]",random_choice
+uniform,1,50,57,50,1.0,31.22,57.0,"[0, 0, 0]",nearest_exit
+uniform,1,50,123,50,1.0,47.62,123.0,"[0, 0, 0]",q_learning
+uniform,2,50,500,48,0.96,142.91666666666666,454.0,"[0, 0, 2]",random_choice
+uniform,2,50,60,50,1.0,31.4,60.0,"[0, 0, 0]",nearest_exit
+uniform,2,50,103,50,1.0,43.88,103.0,"[0, 0, 0]",q_learning
+uniform,3,50,500,49,0.98,158.71428571428572,490.0,"[0, 0, 1]",random_choice
+uniform,3,50,55,50,1.0,31.04,55.0,"[0, 0, 0]",nearest_exit
+uniform,3,50,118,50,1.0,44.28,118.0,"[0, 0, 0]",q_learning
+corner,1,50,500,48,0.96,159.5,442.0,"[0, 1, 1]",random_choice
+corner,1,50,71,50,1.0,46.42,71.0,"[0, 0, 0]",nearest_exit
+corner,1,50,105,50,1.0,51.76,105.0,"[0, 0, 0]",q_learning
+corner,2,50,500,48,0.96,168.27083333333334,465.0,"[1, 0, 1]",random_choice
+corner,2,50,68,50,1.0,43.46,68.0,"[0, 0, 0]",nearest_exit
+corner,2,50,105,50,1.0,51.14,105.0,"[0, 0, 0]",q_learning
+corner,3,50,500,48,0.96,145.125,465.0,"[0, 2, 0]",random_choice
+corner,3,50,69,50,1.0,44.3,69.0,"[0, 0, 0]",nearest_exit
+corner,3,50,106,50,1.0,50.86,106.0,"[0, 0, 0]",q_learning
